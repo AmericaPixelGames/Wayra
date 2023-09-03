@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "72856968136",
+    "firebase_url": "https://the-runner-8012e-default-rtdb.firebaseio.com",
+    "project_id": "the-runner-8012e",
+    "storage_bucket": "the-runner-8012e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:72856968136:android:e87b7b87ccba1750b4befd",
+        "android_client_info": {
+          "package_name": "com.americapixelgames.therunner"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "72856968136-mvkcpr199jpqbsnql0qth6lqakug0jmk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.americapixelgames.therunner",
+            "certificate_hash": "57d87b2c2601a7cfadbfb5b72580849f5fa40f28"
+          }
+        },
+        {
+          "client_id": "72856968136-6dupdlk225sbkv7d61fcl4g9a1p1sett.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBulkwdwjEMwxpXULK9gDOCs8cmZpz6WD4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "72856968136-44vpi1jkig4b5v7ulbvbdr1lu6vv5006.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "72856968136-cq73c2ljr4amvi4ujkgu31kedmjpcfbe.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.americapixelgames.therunner"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
