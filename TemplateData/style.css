@@ -4,14 +4,49 @@ body { padding: 0; margin: 0 }
 /* #unity-container.unity-mobile { position: fixed; width: 100%; height: 100% } */
 #unity-canvas { background: #442880 }
 
-#unity-loading-bar { position: absolute; /* left: 50%; top: 50%; transform: translate(-50%, -50%); display: none */ }
-#unity-logo { width: 154px; height: 130px; background: url('unity-logo-dark.png') no-repeat center }
-#unity-progress-bar-empty { width: 141px; height: 18px; margin-top: 10px; margin-left: 6.5px; background: url('progress-bar-empty-dark.png') no-repeat center }
-#unity-progress-bar-full { width: 0%; height: 18px; margin-top: 10px; background: url('progress-bar-full-dark.png') no-repeat center }
-#unity-footer { position: relative }
+#unity-loading-bar { 
+    width: 100%;
+    height: 100%;
+    background: black;
+    z-index: 999;
+
+    align-items: center;
+    justify-content: center;
+    position: absolute;  
+    left: 50%; top: 50%; 
+    transform: translate(-50%, -50%); 
+
+}
+#unity-logo { 
+    width: 154px; 
+    height: 130px; 
+    background: url('unity-logo-dark.png') no-repeat center 
+}
+#unity-progress-bar-empty { 
+    width: 141px; 
+    height: 18px; 
+    margin-top: 10px; 
+    margin-left: 6.5px; 
+    background: url('progress-bar-empty-dark.png') no-repeat center 
+}
+#unity-progress-bar-full { 
+    width: 0%; 
+    height: 18px; 
+    margin-top: 10px; 
+    background: url('progress-bar-full-dark.png') no-repeat center
+ }
+#unity-footer { 
+    position: relative 
+}
 .unity-mobile #unity-footer {  }
 #unity-build-title { float: right; margin-right: 10px; line-height: 38px; font-family: arial; font-size: 18px }
-#unity-fullscreen-button { cursor:pointer; float: right; width: 38px; height: 38px; background: url('fullscreen-button.png') no-repeat center }
+#unity-fullscreen-button { 
+    cursor:pointer; 
+    float: right; 
+    width: 38px; 
+    height: 38px; 
+    background: url('fullscreen-button.png') no-repeat center 
+}
 .unity-mobile #unity-footer #unity-fullscreen-button { 
     margin-top: 10px;
     cursor: pointer;
@@ -20,7 +55,14 @@ body { padding: 0; margin: 0 }
     height: 30px;
 }
 
-#unity-warning { position: absolute; left: 50%; top: 5%; transform: translate(-50%); background: white; padding: 10px; display: none }
+#unity-warning { 
+    position: absolute; 
+    left: 50%; 
+    top: 5%; 
+    transform: translate(-50%); 
+    background: white; 
+    padding: 10px; 
+    display: none }
 .container-game{
     display: flex;
     justify-content: center;
@@ -61,7 +103,6 @@ body { padding: 0; margin: 0 }
     height: 100%;
 }
 #unity-canvas {
-    position: absolute;
     top: 0;
     left: 0;
     width: 100%;
@@ -69,8 +110,6 @@ body { padding: 0; margin: 0 }
 }
 .canvas-container {
     width: 100%;
-    padding-bottom: 56.25%; /* 9 dividido por 16 (16:9) */
-    position: relative;
 }
 #unity-webgl-logo { 
     float:left; 
