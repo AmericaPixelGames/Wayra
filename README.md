@@ -136,17 +136,11 @@ The following professionals contributed to this project:
 </table>
 ## Build Process
 
-
 - Clone or download the repository.
-- Run in project in `Unity`.
-- Install the `localization package`.
-- Download Firebase SDK, and import the `FirebaseAuth.unitypackage` package from Unity.
-- Download the `GoogleMobileAds` package and import it from Unity.
-- `Run` the game from Unity.
+- Deploy this project to a web server.
+- Verify that the boot path finds the index.html file
+- Start the server and visit the path where I deploy the project.
   
-For more information about the plugin  [GoogleadsMobile para unity]( https://github.com/googleads/googleads-mobile-unity/releases/tag/v8.5.2).
-<br />
-For more information about the plugin [Firebase sdk para unity](https://github.com/firebase/firebase-unity-sdk).
 
 <br />
 
@@ -164,18 +158,6 @@ Thank you to all our backers! 🙏 [[Become a backer](https://americapixelgames.
           <sub>
             <b>Unity</b> <br />
             <i>Video Game Development Engine</i>
-          </sub>
-        </a>
-        <br />
-        </a>
-      </td>
-      <td align="center" valign="top" width="30%">
-        <a href="https://firebase.google.com">
-          <img src="https://raw.githubusercontent.com/AmericaPixelGames/Images/main/americapixelgames/Google/Firebase.png" width="300px;" alt="Firebase"/>
-          <br />
-          <sub>
-            <b>Google|Firebase</b> <br />
-            <i>Data Base</i>
           </sub>
         </a>
         <br />
