@@ -43,15 +43,13 @@
 [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg?style=flat-square)](http://commitizen.github.io/cz-cli/)
 [![Gitter chat](https://img.shields.io/badge/chat-on_gitter-008080.svg?style=flat-square)](https://gitter.im/git-point)-->
 
-El juego es una emocionante aventura en el que te sumergirás en un vibrante mundo lleno de ritmo y música. Tomarás el control de un ágil y carismático personaje que corre a través de diversos escenarios, saltando sobre obstáculos y recolectando items musicales que se encuentran dispersos por el camino.
+America Pixel Games is an organization dedicated to the creation and development of games in the pixel art style, also known as pixel art. Founded in January 2023, the organization has focused on producing video games that make use of this distinctive, retro visual aesthetic.
 
-Cada nivel está ambientado con cautivadoras melodías y notas musicales que te acompañarán durante toda la experiencia. A medida que avanzas, enfrentarás desafíos cada vez más emocionantes que requerirán de tu destreza y agilidad para superarlos con éxito.
+Pixel art is a style of graphic design that relies on the representation of images using individual pixels, creating a retro and often nostalgic look that evokes the era of classic video games. America Pixel Games has embraced this art style to create games that not only capture the essence of old games, but also offer exciting modern experiences.
 
-Los items musicales que recolectas durante el juego no solo añaden puntos a tu marcador, sino que también enriquecen la banda sonora del juego, creando una experiencia audiovisual única y envolvente. La combinación de la música y la acción del juego te sumergirá en un estado de flujo, haciéndote sentir como si estuvieras bailando al ritmo de la música mientras avanzas por los diferentes niveles.
+The organization has strived to blend pixel art aesthetics with contemporary gameplay and engaging storylines. Throughout its time in the industry, America Pixel Games has produced a variety of games spanning genres such as platformers, adventures, puzzles, and RPGs, all with the common feature of pixel-based visual design.
 
-Además, a lo largo de tu travesía, podrás desbloquear nuevos personajes, cada uno con sus propias habilidades y estilo musical, lo que añade un elemento de personalización y diversidad al juego.
-
-Con su cautivador diseño artístico, su jugabilidad adictiva y su brillante combinación de música y acción, este juego de correr, saltar y recolectar items musicales para recolectar puntos te mantendrá entretenido durante horas y te invitará a sumergirte en su mágico universo una y otra vez.
+With a passion for classic games and a vision for the future, América Pixel Games has sought to establish its mark in the video game development industry, offering gamers unique experiences that combine the nostalgic charm of pixel art with contemporary innovation.
 
 **Available for both Android.**
 
