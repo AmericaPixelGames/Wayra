@@ -38,7 +38,10 @@
         'width' : 160,
         'params' : {}
       };
-      document.write('<scr' + 'ipt type="text/javascript" src="//www.topcreativeformat.com/8ff7e280d84ed0a2821bce83708a5caa/invoke.js"></scr' + 'ipt>');
+      var script = document.createElement('script');
+      script.type = "text/javascript"; 
+      script.src = "//www.topcreativeformat.com/8ff7e280d84ed0a2821bce83708a5caa/invoke.js";  
+      document.head.appendChild(script);
     </script>
   </head>
   <body class="banner-parallax">
