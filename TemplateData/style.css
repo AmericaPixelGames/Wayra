@@ -129,3 +129,45 @@ body { padding: 0; margin: 0 }
     height: 60px; 
     background: url('apglogo.png') no-repeat center 
 }
+
+/* Estilo base del botón */
+.button {
+    margin-top: 100px;
+    background-color: #673ab7; /* Color morado oscuro */
+    color: #fff; /* Color de texto blanco */
+    padding: 10px 20px; /* Espaciado interno */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Esquinas redondeadas */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+  }
+  
+  /* Efecto al pasar el ratón sobre el botón */
+  .button:hover {
+    background-color: #512da8; /* Cambia el color al pasar el ratón */
+  }
+  
+  /* Efecto de sombra al hacer clic en el botón */
+  .button:active {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Sombra suave */
+  }
+  
+  /* Estilo del texto dentro del botón */
+  .button span {
+    font-weight: bold; /* Texto en negrita */
+  }
+  
+  /* Otros estilos opcionales */
+  .button.outline {
+    background-color: transparent; /* Botón transparente */
+    border: 2px solid #673ab7; /* Borde sólido morado oscuro */
+    color: #673ab7; /* Color de texto morado oscuro */
+  }
+  
+  .button.round {
+    border-radius: 50px; /* Botón redondo */
+  }
+  
+  /* Estilo para un botón pequeño */
+  .button.small {
+    padding: 5px 10px; /* Espaciado interno más pequeño */
+  }
