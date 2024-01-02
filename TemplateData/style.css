@@ -68,11 +68,11 @@ body { padding: 0; margin: 0 }
     justify-content: center;
     align-items: center;
 }
-@media screen and (min-width: 200px) and (orientation: portrait) {
+/* @media screen and (min-width: 200px) and (orientation: portrait) {
     .container-game{
         margin-top: 100px;
     }
-}
+} */
 .banner-parallax {
     background-image: url('banner-2080x828.png'); /* Ruta de tu imagen de fondo */
     background-attachment: fixed;
@@ -86,7 +86,7 @@ body { padding: 0; margin: 0 }
     font-size: 24px;
     
 }
-@media only screen and (min-width: 1024px) {
+/* @media only screen and (min-width: 1024px) {
     .banner-parallax {
         height: 100vh;
     }
@@ -100,7 +100,7 @@ body { padding: 0; margin: 0 }
     .banner-parallax {
         height: none;
     }
-}
+} */
 .parallax-content{
     background-color: #864efa8c;
     padding: 20px;
@@ -111,7 +111,7 @@ body { padding: 0; margin: 0 }
     .parallax-content{
         background-color: #864efa8c;
         padding: 20px;
-        padding-top: 200px;
+        /* padding-top: 200px; */
         border-radius: 10px;
     }
 }
