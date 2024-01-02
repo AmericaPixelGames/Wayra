@@ -141,7 +141,8 @@
         }
 
         var linkAPG = document.createElement('a');
-        linkAPG.innerText = " more..."
+        linkAPG.innerText = " ... more ..."
+        linkAPG.style.color = "#ffffff"
         linkAPG.setAttribute("href","https://americapixelgames.com/"+gameSubId);
         linkAPG.setAttribute("target","_blank");
         document.getElementById("description").innerHTML = game.description.replace(/<[^>]+>/ig, '');;
