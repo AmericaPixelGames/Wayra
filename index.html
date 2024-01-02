@@ -136,7 +136,17 @@
         const gameSubId = "Wayra".toString().toLowerCase().replace(/\s/g, '');
         const response = await fetch("https://americapixelgames.com/api/getgame?id="+gameSubId);
         const game = await response.json();
+        if(game.description.length >= 91){
+          game.description = game.description.substring(0, 91);
+        }
+
+        var linkAPG = document.createElement('a');
+        linkAPG.innerText = " more..."
+        linkAPG.setAttribute("href","https://americapixelgames.com/"+gameSubId);
+        linkAPG.setAttribute("target","_blank");
         document.getElementById("description").innerHTML = game.description;
+        document.getElementById("description").appendChild(linkAPG);
+        document.getElementById("description").firstChild.style.display = "inline";
         document.getElementById("title").innerHTML = game.title;
 
 
